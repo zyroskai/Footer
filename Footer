@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>FOOTER</title>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+ 
+<style>
+/* General Styles */
+body {
+    background-color: black;
+    font-family: sans-serif;
+    margin: 0;
+    color: white;
+}
+
+h1, h3 {
+    margin: 0 0 10px 0;
+}
+
+/* Gradient Heading */
+.footr {
+    font-family: 'Poppins', sans-serif; 
+    font-size: 2.5rem;
+    font-weight: bold;
+    background: linear-gradient(270deg, blue, red);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin: 30px 0;
+}
+
+/* DisplayProperty Section */
+.dpty {
+    display: flex;
+    column-gap: 20px;
+    width: 80%;
+    background: linear-gradient(270deg, red, blue);
+    color: rgb(0, 0, 0);
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto 100px auto;
+    border-radius: 10px;
+    padding: 20px;
+}
+.dpty > div {
+    background-color: rgb(33, 252, 13);
+    width: 120px;
+    height: 120px;
+    font-weight: bold;
+    border-radius: 12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Footer Section */
+.footer {
+    background-color: rgb(20, 40, 40);
+    padding: 50px;
+}
+
+/* Footer Columns evenly spaced */
+.footer-columns {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    width: 100%;
+}
+.footer-columns div {
+    flex: 1;
+    min-width: 150px;
+    max-width: 250px;
+    padding: 0 15px;
+}
+.footer-columns h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #f0f0f0;
+}
+
+/* Footer Links Row */
+.footerLinks1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 4%;
+    padding: 25px 60px 10px 60px;
+}
+.footerLinks1 div {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.footer a[href] {
+    color: white;
+    transition: color 0.3s ease;
+}
+.footer a[href]:hover {
+    text-decoration: underline;
+    color: red;
+}
+</style>
+</head>
+<body>
+ 
+<h1 class="footr">Welcome to the Footer</h1>
+ 
+<div class="dpty">
+    <div>Block</div>
+    <div>Inline</div>
+    <div>Inline-Block</div>
+    <div>Flex</div>
+    <div>Grid</div>
+</div>
+ 
+<section class="footer">
+    <div class="footer-columns">
+        <div>
+            <h3>Front-End</h3>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+        </div>
+    
+        <div>
+            <h3>Back-End</h3>
+            <ul>
+                <li>Java</li>
+                <li>C++</li>
+                <li>Python</li>
+            </ul>
+        </div>
+    
+        <div>
+            <h3>DBMS</h3>
+            <ul>
+                <li>MySQL</li>
+                <li>MongoDB</li>
+                <li>Oracle</li>
+            </ul>
+        </div>
+    
+        <div>
+            <h3>Graphics Software</h3>
+            <ul>
+                <li>Adobe Photoshop</li>
+                <li>CorelDRAW</li>
+                <li>Canva</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="footerLinks1">
+        <div><a href="#">ABOUT US</a></div>
+        <div><a href="#">CAREERS</a></div>
+        <div><a href="#">SERVICES</a></div>
+        <div><a href="#">PRODUCTS</a></div>
+        <div><a href="#">PRIVACY</a></div>
+        <div><a href="#">TERMS</a></div>
+    </div>
+</section>
+ 
+</body>
+</html>
